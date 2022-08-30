@@ -8,7 +8,7 @@
 ![git_name](file:///D:/SCapture/capture/git_rename.png)
 
 #test
-![git_name](./img/git_rename.png)
+![git_name](img/git_rename.png)
 
 
 
