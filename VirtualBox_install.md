@@ -16,14 +16,14 @@
 
 - HDP 설치 후 더블클릭 
 
-  ![HDP_install](img\HDP_install.png)
+  ![HDP_install](img/HDP_install.png)
 
 
 
 
 - Import
 
-  ![Virtualbox_setting](img\Virtualbox_setting.png)
+  ![Virtualbox_setting](img/Virtualbox_setting.png)
 
   ​
 
@@ -31,18 +31,18 @@
 
   - 부팅
 
-    ![virtualbox_booting](img\Virtualbox_booting.png)
+    ![virtualbox_booting](img/Virtualbox_booting.png)
 
   - 완료
 
-    ![virtualbox_booting_end](img\virtualbox_booting_end.png)
+    ![virtualbox_booting_end](img/virtualbox_booting_end.png)
 
 
 
 
-3. 127.0.0.1:8080 접속 후 로그인
+3. 127.0.0.1:8888 접속 후 로그인
 
-   ![hadoop_login](img\hadoop_login.png)
+   ![hadoop_login](img/hadoop_login.png)
 
    ID/PW = maria_dev
 
@@ -60,4 +60,4 @@ order by ratingcount
 desc; 
 ```
 
-   ![hive_visual](img\hive_visual.png)
+   ![hive_visual](img/hive_visual.png)
