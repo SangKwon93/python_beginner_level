@@ -31,7 +31,7 @@
 
   - 부팅
 
-    ![virtualbox_booting](img/Virtualbox_booting.png)
+    ![virtualbox_booting](img/virtualbox_booting.png)
 
   - 완료
 
