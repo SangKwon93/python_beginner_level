@@ -4,11 +4,11 @@
 
 1. 가상 머신 설치
 
-   www.virtualbox.org 접속하여  Window hosts 다운로드
-
+   - [VirtualBox](www.virtualbox.org )
+   - www.virtualbox.org 접속하여  Window hosts 다운로드
 2. Hortonworks Data Platform
-
-   https://archive.cloudera.com/hwx-sandbox/hdp/hdp-2.5.0/HDP_2.5_virtualbox.ova 다운로드
+   - [HDP](https://archive.cloudera.com/hwx-sandbox/hdp/hdp-2.5.0/HDP_2.5_virtualbox.ova )
+   - https://archive.cloudera.com/hwx-sandbox/hdp/hdp-2.5.0/HDP_2.5_virtualbox.ova 다운로드
 
 
 
