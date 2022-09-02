@@ -1,0 +1,82 @@
+# 1일차 밴드명 생성기 프로젝트
+
+print("welcome to Band Name Generator")
+
+city_name = input("What's name of the city you grew up in?\n")
+#input(city_name)
+  
+pet_name = input("What's your pet's name?\n")
+#input(pet_name)
+
+print("Your band name could be " + city_name+' ' + pet_name)
+
+#2일차 BMI 계산기
+
+height = input("enter your height in m: ")
+weight = input("enter your weight in kg: ")
+
+BMI = float(weight)/(float(height))**2
+print( " BMI 는 "+ str(int(BMI)) +"입니다.")
+
+* 반올림 round
+print(round(8/3, 2))=2.67
+-> 2는 소수째 둘째짜리까지 나오게 반올림!
+
+* 버림 //
+print(8//3) = 2
+이때 type은 int( 버림을 하여서 float이 아닌)
+
+practice
+100살까지 남은 일,주,달 확인하기
+
+age = input("What is your current age?")
+int_age= int(age)
+day =365*(100-int_age)
+week=52*(100-int_age)
+month=12*(100-int_age)
+message =f"너에게는 {day} 일, {week}주 ,{month}달이 남아있어 힘내!(기준 100살)"
+print(message)
+
+## 2일차 팁계산기 프로젝트
+
+
+#내가한거
+# print("Welcome to the tip calculator!")
+# bills= input("What was the total bill? $")
+# rate =input("WHat percentage tip would you like to give ? 10,12 or 15?")
+# number=input("How many people to split the bill?")
+
+# total= (float(bills) / int(number))*(1+(int(rate)/100))
+# total_form = round(total,2)
+# print(f"Each perosn shold pay: $ {total_form}")
+
+# 강사
+
+print("Welcome to the tip calculator!")
+bills = float(input("What was the total bill? $"))
+rate = int(input("WHat percentage tip would you like to give ? 10,12 or 15?"))
+number = int(input("How many people to split the bill?"))
+total = (bills) / (number) * (1 + (rate / 100))
+total_form = "{:.2f}".format(total)
+print(f"Each perosn shold pay: $ {total_form}")
+
+# 놓쳤던 부분과 고치면 좋을 부분 정리
+
+1. 소수점 둘째짜리까지 나타내기.
+# 소수점 둘째짜리까지 나타내기 위해 round를 쓴 경우
+# 결과값이 33.60이라면 33.6으로 표시된다.(반올림 소수 몇번째짜리에 따른 문제가 아니다.)
+
+# "{:.2f}".format(변수)를 활용해야 33.60과 같이 둘째짜리까지 표시가능하다.
+
+2. 코드 가독성을 위해 습관들이기
+- 변수를 지정할 때 type까지 지정해주자.
+-> 계산 시 덜 복잡해보이며 가독성이 더욱 좋아진다.
+
+
+
+
+
+
+
+
+
