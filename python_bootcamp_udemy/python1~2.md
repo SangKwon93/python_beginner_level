@@ -12,7 +12,7 @@ pet_name = input("What's your pet's name?\n")
 print("Your band name could be " + city_name+' ' + pet_name)
 ```
 
-![#day1](../day1.png)
+![#day1](/day1.png)
 
 ## 2일차
 
@@ -30,7 +30,7 @@ BMI = float(weight)/(float(height))**2
 print( " BMI 는 "+ str(int(BMI)) +"입니다.")
 ```
 
-![day2_2](../day2_2.png)
+![day2_2](/day2_2.png)
 
 * **반올림 round**
   print(round(8/3, 2))=2.67
@@ -56,7 +56,7 @@ message =f"너에게는 {day} 일, {week}주 ,{month}달이 남아있어 힘내!
 print(message)
 ```
 
-![day2_3](../day2_3.png)
+![day2_3](/day2_3.png)
 
 
 
@@ -114,4 +114,4 @@ print(f"Each perosn shold pay: $ {total_form}")
     - 변수를 지정할 떄 type까지 지정해주기.
       - 계산 시 덜 복잡해보이며 가독성이 더욱 좋아진다.
 
-![day2](../day2.png)
+![day2](/day2.png)
