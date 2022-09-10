@@ -1,7 +1,7 @@
 ## 10일차 - 함수와 출력
 
 ##### 월별 일수
-- 코드
+- 내 코드
 ```
 # 윤년 여부 함수
  def is_leap(year):
@@ -28,6 +28,7 @@ year = int(input("Enter a year: "))
 month = int(input("Enter a month: "))
 days = days_in_month(year, month)
 print(days)
+```
 
     - 개선해야 할 점
         - month_days[month-1]에 대한 응용 공부가 필요!
